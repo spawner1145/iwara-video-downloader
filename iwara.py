@@ -7,7 +7,7 @@ import urllib.parse
 # 全局变量
 DOWNLOAD_LIMIT = 1  # 获取到的视频数量，或者信息条数
 API_BASE_URL = "https://api.iwara.tv/videos"
-RATING = "all"  # ecchi(r18), all（没啥用，因为就没有不是r18的）
+RATING = "all" 
 SORT = "trending"  # 可用榜单:date(最新), popularity(热门), trending(趋势)
 DOWNLOAD_DIR = "./downloads"  # 视频下载目录
 proxies = {
