@@ -247,7 +247,7 @@ def main(command):
         else:
             print("请输入有效的搜索关键词。")
     elif command.startswith("榜单下载"):
-        SORT = command.replace("榜单", "").strip()
+        SORT = command.replace("榜单下载", "").strip()
         asyncio.run(rank_videos())
     elif command.startswith("榜单"):
         SORT = command.replace("榜单", "").strip()
